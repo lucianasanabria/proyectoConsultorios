@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    border-bottom: #1157c06f 5px solid;
+    padding-bottom: 10px;
+}
+
+.logoIcm{
+    margin-bottom: 20px;
+}
+
+body{
+    display: grid;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f8ff;
+
+}
+
+main{
+    margin: 80px;
+
+}
+
+h1{
+    color: #1157c0;
+    font-size: 28px;
+    text-align: center;
+}
+
+h2{
+    color: #3b75cc;
+    font-size: 32px;
+}
+
+#profesionalesH2{
+    height: 80px;
+
+}
+
+h3{
+    color: #303235;
+    height: 40px;
+}
+
+p{
+     color: #333f52;
+     padding: 10px;
+     border: #3b75cc 2px dotted;
+     
+}
+
+.parrafosNosotros{
+    background-color: rgba(139, 181, 229, 0.315);
+    font-size: 20px;
+    
+} 
+
+#textoPpal{
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+
+#imagenNosotros{
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+footer{
+    background-color: #3b75cc;
+}
+
+#nuestrasRedes{
+    font-size: 20px;
+
+}
+
+.redes{
+    width: 2%;
+}
+
+.menuEspecialidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #6f81ac;
+    }
+    
+    .menuEspecialidades li {
+    padding: 5px;
+    border-bottom: 1px solid #6f81ac;
+    }
+    
+    .menuEspecialidades li:hover {
+    background-color: #5a7fc725;
+    }
+    
+    .menuEspecialidades li ul {
+    display: none;
+    margin-left: 10px;
+    }
+    
+    .menuEspecialidades li:hover ul {
+    display: block;
+    }
+
+    
+    h3{
+        color: #6f81ac;
+    }
+    
+    .cardiologia,.clinicaMedica,.dermatologia,.ginecologiaObstetricia,.oftalmología,.pediatría,.traumatologia{
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    
+  a{
+    text-decoration: none;
+    color: #1157c0;
+    font-size: 20px;
+}
+
+
+.nosotrosYpreguntas{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    
+}
+
+.respuestas{
+    font-size: 16px;
+    padding: auto;
+
+}
+
+#tituloPreguntas{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav.secciones a:hover{
+    text-decoration: underline ;
+
+}
+
+nav.secciones a{
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#izquierda{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    
+
+}
+
+#derecha{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    
+
+}
+
+#abajo{
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+
+#extensionTurnos{
+    height: 100vh;
+}
+
+.preguntasFrec{
+    border: none;
+}
+
+
+@media (min-width: 768px){
+    nav.secciones a{
+        display: inline-block;
+        justify-content: space-evenly;
+        font-size: 18xp;
+    }
+
+}
+
+@media (min-width: 1024px){
+    nav.secciones a{
+        display: inline-block;
+        justify-content: space-evenly;
+        font-size: 24px;
+    }
+
+    div.alapar{
+        width: 45%;
+        padding: 20px;
+        display: inline-block;
+        flex: center;
+        flex-direction: column;
+        align-items: center;
+   
+    }
+
+    nav.consignaInicio{
+        padding: 50px;
+        justify-content: center;
+    
+    }
+
+    nav.imagenInicio{
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+
+}
+
+
+   
