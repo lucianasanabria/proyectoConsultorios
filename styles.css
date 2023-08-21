@@ -40,10 +40,7 @@ h2{
     font-size: 32px;
 }
 
-#profesionalesH2{
-    height: 80px;
 
-}
 
 h3{
     color: #303235;
@@ -90,44 +87,49 @@ footer{
     width: 2%;
 }
 
-.menuEspecialidades ul {
+/* paginaProfesionales */
+
+#tituloProfesionales{
+    height: 20px;
+}
+#profesionalesH2{
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+    font-size: x-large;
+}
+.menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
     color: #6f81ac;
-    }
+}
     
-    .menuEspecialidades li {
+.menu li {
     padding: 5px;
     border-bottom: 1px solid #6f81ac;
-    }
-    
-    .menuEspecialidades li:hover {
-    background-color: #5a7fc725;
-    }
-    
-    .menuEspecialidades li ul {
-    display: none;
-    margin-left: 10px;
-    }
-    
-    .menuEspecialidades li:hover ul {
-    display: block;
-    }
+}
 
+h3{
+    color: #28417c;
+    font-size: 25px;
+}
     
-    h3{
-        color: #6f81ac;
-    }
-    
-    .cardiologia,.clinicaMedica,.dermatologia,.ginecologiaObstetricia,.oftalmología,.pediatría,.traumatologia{
-        display: flex;
-        justify-content: flex-start;
-        gap: 10px;
-    }
+.subMenu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 20px;
 
-    
-  a{
+}
+.mediana{
+    width: 250px;
+    height: 180px;
+}
+
+/* finPaginaProfesionales */
+
+a{
     text-decoration: none;
     color: #1157c0;
     font-size: 20px;
