@@ -74,17 +74,34 @@ p{
     text-align: center;
 }
 
+/* footer  */
+
 footer{
     background-color: #3b75cc;
+}
+
+.columnasFooter{
+    display: grid;
+    grid-template-columns: 35% 35% 20%;
+    flex-direction: row;
+    
+}
+
+.columna {
+    list-style:none;
+    font-size: medium;
+    padding: 10px;
+    width: 33%;
+    color: #faf8f8;
+}
+
+.redes{
+    width: 15%;
 }
 
 #nuestrasRedes{
     font-size: 20px;
 
-}
-
-.redes{
-    width: 2%;
 }
 
 /* paginaProfesionales */
@@ -120,14 +137,11 @@ h3{
     justify-content: flex-start;
     gap: 10px;
     margin: 20px;
-
 }
 .mediana{
     width: 250px;
     height: 180px;
 }
-
-/* finPaginaProfesionales */
 
 a{
     text-decoration: none;
