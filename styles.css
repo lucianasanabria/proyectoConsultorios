@@ -68,12 +68,15 @@ p{
     margin-top: 50px;
     text-align: center;
     border-radius: 25px;
-   
 }
 
-#imagenNosotros{
-    /* padding-top: 30px; */
+div.alapar{
+    padding: 20px;
+}
+
+#imagenNosotros{   
     display: block;
+    display: inside;
     text-align: center;
     border-radius: 25px;
 }
@@ -248,6 +251,16 @@ nav.secciones a{
         justify-content: center;
         text-align: center;
 
+    }
+
+    #imagenNosotros{
+        margin:20px auto;
+        border-radius: 25px;
+        width:350px;
+        height:350px;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        background-size: cover;
     }
 
 
