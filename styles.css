@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-/* cc */
-
 header{
     margin-top: 20px;
     margin-left: 80px;
@@ -17,6 +15,7 @@ header{
 .logoIcm{
     margin-bottom: 20px;
 }
+/* fin header */
 
 body{
     display: grid;
@@ -43,7 +42,6 @@ h2{
 }
 
 
-
 h3{
     color: #303235;
     height: 40px;
@@ -56,9 +54,11 @@ p{
      
 }
 
+/* página sobre nosotros */
 .parrafosNosotros{
     background-color: rgba(139, 181, 229, 0.315);
     font-size: 20px;
+    border-radius: 25px;
     
 } 
 
@@ -67,16 +67,17 @@ p{
     font-size: 20px;
     margin-top: 50px;
     text-align: center;
+    border-radius: 25px;
    
 }
 
 #imagenNosotros{
-    padding-top: 30px;
+    /* padding-top: 30px; */
     display: block;
     text-align: center;
+    border-radius: 25px;
 }
-
-/* footer  */
+/* fin pagina sobre nosotros */
 
 footer{
     background-color: #3b75cc;
@@ -105,6 +106,7 @@ footer{
     font-size: 20px;
 
 }
+/* fin de footer */
 
 /* paginaProfesionales */
 
@@ -184,14 +186,12 @@ nav.secciones a{
 #izquierda{
     padding-bottom: 10px;
     padding-top: 30px;
-    
 
 }
 
 #derecha{
     padding-bottom: 10px;
     padding-top: 30px;
-    
 
 }
 
