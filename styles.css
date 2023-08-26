@@ -240,10 +240,11 @@ nav.secciones a{
     nav.consignaInicio{
         padding: 50px;
         justify-content: center;
+        text-align: center;
     
     }
 
-    nav.imagenInicio{
+    .imagenInicio{
         display: inline-block;
         justify-content: center;
         text-align: center;
