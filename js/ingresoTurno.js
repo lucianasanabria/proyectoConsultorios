@@ -1,24 +1,32 @@
-// 4ta preentrega
-// -Almacenar en Storage la información ingresada por el usuario 
-// en la entrega anterior. Puede ser un texto, números, o 
-// combinación.
-// -Mostrar al usuario dicha información (ya guardada en nuestra 
-// base de datos).
-// -Crear estructura de datos en formato JSON, puede ser de 
-// productos, servicios o usuarios.
-// -Leerla desde un archivo JS y crear una función que nos deje 
-// agregar un nuevo elemento a la base de datos, siguiendo la 
-// estructura de los elementos anteriores, a través de un 
-// formulario.
-
-// local Storage 
-let UsuarioRegistrado = localStorage.setItem("mailRegistrado", "jorge@mail.com")
-console.log(UsuarioRegistrado);
+// storage + eventos en formulario (debocontinuar retocandolo y complejizando funcionamiento)
+localStorage.setItem("usuarioRegistrado", "pedro@mail.com")
 
 window.onload = () => {
     let boton = document.querySelector("button");
 
-    boton.onclick = () => {
-        let inputUsuario = document.getElementById("MailUsuario").value;
+    boton.onclick = (event) => {
+    event.preventDefault()
+    let inputUsuario = document.getElementById("MailUsuario").value;
+    if (inputUsuario == localStorage.getItem("usuarioRegistrado")) {
+        document.querySelector("#mensajeUsuario").innerText = "Ingreso con éxito " + inputUsuario
+        sessionStorage.setItem("sesionIniciada", true)
+        sessionStorage.setItem("MailUsuario", inputUsuario)
+        console.log(sessionStorage);
+        
+    } else {
+        document.querySelector("#mensajeUsuario").innerText = "Intente de nuevo"
+    }      
     }
+
+    let formulario = document.querySelector("form1");
+    let inputPass =document.getElementById("pass");
+    inputPass.addEventListener("keyup", () => {
+        let mensaje;
+        if (inputPass.value.length < 8) { 
+            mensaje = "La contraseña debe tener más de 8 caracteres"
+            document.getElementById("mensajePass").innerText = mensaje
+        } else {
+            document.getElementById("mensajePass").innerText = " "
+        }
+        })
 }
