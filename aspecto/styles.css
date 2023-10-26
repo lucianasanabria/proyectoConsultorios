@@ -54,6 +54,10 @@ p{
      
 }
 
+.imagenInicio{
+background-attachment: fixed;
+}
+
 /* página sobre nosotros */
 .parrafosNosotros{
     background-color: rgba(139, 181, 229, 0.315);
@@ -84,13 +88,16 @@ div.alapar{
 
 footer{
     background-color: #3b75cc;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .columnasFooter{
     display: grid;
-    grid-template-columns: 35% 35% 20%;
+    grid-template-columns: 35% 35% 30%;
     flex-direction: row;
-    
+    margin-left: 80xp;
+    margin-right: 80px;
 }
 
 .columna {
