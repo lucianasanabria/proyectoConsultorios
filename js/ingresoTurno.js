@@ -1,4 +1,4 @@
-// storage + eventos en formulario (debocontinuar retocandolo y complejizando funcionamiento)
+// storage + eventos en formulario 
 localStorage.setItem("usuarioRegistrado", "pedro@mail.com")
 
 window.onload = () => {

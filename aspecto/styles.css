@@ -58,6 +58,11 @@ p{
 background-attachment: fixed;
 }
 
+.iframe{
+    text-align: center;
+}
+
+
 /* página sobre nosotros */
 .parrafosNosotros{
     background-color: rgba(139, 181, 229, 0.315);
